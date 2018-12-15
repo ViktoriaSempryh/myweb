@@ -48,6 +48,11 @@ header div h1{
     min-height: 500px;
     background-image: url(../img/front-img.jpg);
     background-size: cover;
+    background-position: center;
+}
+
+main .galery{
+    
 }
 
 @media (min-width: 550px){
