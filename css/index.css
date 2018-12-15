@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Cormorant+Garamond|Merriweather');
+
+:root {
+    font-family: 'Cormorant Garamond', serif;
+}
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+.logo {
+    
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: right;
+    padding-right: 150px;
+}
+
+nav ul.menu {
+    padding-left: 15px;
+    margin-top: 25px;
+   
+}
+nav ul.menu li{
+    list-style: none;
+    
+}
+
+nav ul.menu li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+nav ul.menu li:hover{
+    text-decoration: underline;
+}
+
+header div h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.baner{
+    min-height: 500px;
+    background-image: url(../img/front-img.jpg);
+    background-size: cover;
+}
+
+@media (min-width: 550px){
+    header nav ul.menu{
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+    
+    header nav ul.menu li{
+        margin: 0 2%;
+    }
+    header nav ul.menu li: last-child {
+        margin-left: auto;
+    }
+}
