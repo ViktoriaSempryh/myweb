@@ -51,9 +51,27 @@ header div h1{
     background-position: center;
 }
 
-main .galery{
-    
+ main div.gallery {
+  margin: 5px;
+  border: 5px solid black;
+  float: left;
+  width: 180px;
 }
+
+div.gallery:hover {
+  border: 7px solid #777;
+}
+
+div.gallery img {
+  width: 10%;
+  height: auto;
+}
+
+div .desc {
+  padding: 40px;
+  text-align: center;
+}
+
 
 @media (min-width: 550px){
     header nav ul.menu{
