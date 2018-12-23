@@ -18,60 +18,25 @@ body {
     padding-right: 150px;
 }
 
-nav ul.menu {
-    padding-left: 15px;
-    margin-top: 25px;
-   
-}
-nav ul.menu li{
-    list-style: none;
-    
-}
 
-nav ul.menu li a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    
-}
-nav ul.menu li:hover{
-    text-decoration: underline;
-}
-
-header div h1{
-    font-family: 'Merriweather', serif;
-    font-size: 3rem;
-    text-align: center;
-}
 
 .baner{
     min-height: 500px;
     background-image: url(../img/front-img.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
- main div.gallery {
-  margin: 5px;
-  border: 5px solid black;
-  float: left;
-  width: 180px;
+main gallery .img{
+    min-height: 50%;
+    background-image: url(../img/yellow-living.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-div.gallery:hover {
-  border: 7px solid #777;
-}
-
-div.gallery img {
-  width: 10%;
-  height: auto;
-}
-
-div .desc {
-  padding: 40px;
-  text-align: center;
-}
-
 
 @media (min-width: 550px){
     header nav ul.menu{
@@ -83,7 +48,7 @@ div .desc {
     header nav ul.menu li{
         margin: 0 2%;
     }
-    header nav ul.menu li: last-child {
+    header nav ul.menu li {
         margin-left: auto;
     }
 }
