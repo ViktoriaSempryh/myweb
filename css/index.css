@@ -18,37 +18,76 @@ body {
     padding-right: 150px;
 }
 
+nav ul.menu {
+    padding-left: 1px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+nav ul.menu li{
+    list-style: none;
+}
 
+nav ul.menu li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+nav ul.menu li:hover{
+    text-decoration: underline;
+}
+
+header div h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    text-align: center;
+}
 
 .baner{
-    min-height: 500px;
+    min-height: 600px;
     background-image: url(../img/front-img.jpg);
     background-size: cover;
     background-position: center;
-    
+}
+.gallery img{
+    height: 250px;
 }
 
-main gallery .img{
-    min-height: 50%;
-    background-image: url(../img/yellow-living.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+main .gallery {
+    padding-left: 3px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+main .gallery ul {
+    padding-left: 1px;
+    margin-left: 5px;
+    }
+main .gallery ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+main .gallery ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+main .gallery ul li:hover{
+    text-decoration: underline;
 }
 
 @media (min-width: 550px){
     header nav ul.menu{
         display: flex;
-        align-items: center;
         flex: 1;
     }
     
     header nav ul.menu li{
         margin: 0 2%;
+        padding: 5px;
     }
-    header nav ul.menu li {
-        margin-left: auto;
-    }
+    
 }
