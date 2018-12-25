@@ -49,36 +49,31 @@ header div h1{
     background-size: cover;
     background-position: center;
 }
-.gallery img{
-    height: 250px;
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
 }
 
-main .gallery {
-    padding-left: 3px;
-    margin-top: 25px;
-    margin-left: 5px;
-}
-main .gallery ul {
-    padding-left: 1px;
-    margin-left: 5px;
-    }
-main .gallery ul li{
-    list-style: none;
-    display: inline;
-    padding-left: 100px;
-    padding-right: 50px;
+.item{
+    min-height: 300px;
+    background-image: url(../img/blue-living.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 2rem;
 }
 
-main .gallery ul li a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    
-}
-main .gallery ul li:hover{
-    text-decoration: underline;
+.item p{
+    display: none;
 }
 
+.item:hover p{
+    display: block;
+}
 @media (min-width: 550px){
     header nav ul.menu{
         display: flex;
