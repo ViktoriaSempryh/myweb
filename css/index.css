@@ -7,48 +7,13 @@ body {
     max-width: 980px;
     margin: auto;
 }
-
-.logo {
-    
-    font-family: 'Merriweather', serif;
-    font-size: 1.5rem;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    text-align: right;
-    padding-right: 150px;
-}
-
-nav ul.menu {
-    padding-left: 1px;
-    margin-top: 25px;
-    margin-left: 5px;
-}
-nav ul.menu li{
-    list-style: none;
-}
-
-nav ul.menu li a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    
-}
-nav ul.menu li:hover{
-    text-decoration: underline;
-}
-
-header div h1{
-    font-family: 'Merriweather', serif;
+.caption {
+    font-family: 'Abril Fatface', serif;
     font-size: 3rem;
     text-align: center;
+    padding-top: 20px
 }
 
-.baner{
-    min-height: 600px;
-    background-image: url(../img/front-img.jpg);
-    background-size: cover;
-    background-position: center;
-}
 .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -74,13 +39,14 @@ header div h1{
 .item:hover p{
     display: block;
 }
+
 @media (min-width: 550px){
-    header nav ul.menu{
+    .item{
         display: flex;
         flex: 1;
     }
     
-    header nav ul.menu li{
+     .item{
         margin: 0 2%;
         padding: 5px;
     }
