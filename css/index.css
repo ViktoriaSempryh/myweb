@@ -13,33 +13,63 @@ body {
     text-align: center;
     padding-top: 20px
 }
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
 
-.container gallery{
+.gallery{
     display: grid;
-    grid-template-columns: 1 fr 1 fr 1 fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 } 
 
 .item{
-    min-height: 300px;
+    min-height: 250px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items:center;
     justify-content: center;
-    font-size: 2rem;
+    font-family: 'Abril Fatface', serif;
+    font-size: 1.5rem;
+    
 }
+
+.item1{
+    background-image: url(../img/livingroom2.jpg);
+}
+
+.item2{
+    background-image: url(../img/bedroom3.jpg);
+}
+.item3{
+    background-image: url(../img/diningroom.jpg);
+}
+
+.item4{
+    background-image: url(../img/princess-nurs.jpg);
+}
+.item5{
+    background-image: url(../img/livingroom2.jpg);
+}
+
+.item6{
+    background-image: url(../img/bedroom3.jpg);
+}
+
 
 .item p{
     display: none;
 }
 
-.item:hover p{
+.item p:hover{
     display: block;
 }
 
-@media (min-width: 650px){
+
+@media (min-width: 550px){
     .item{
         display: flex;
         flex: 1;
@@ -49,7 +79,25 @@ body {
         margin: 0 2%;
         padding: 5px;
     }
-    
-    
-    
 }
+@media (max-width: 750px){
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    } 
+}
+@media (max-width: 550px){
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 10px;
+    } 
+}
+
+@media (max-width: 420px){
+.item{
+    min-height: 150px;
+    } 
+}
+
