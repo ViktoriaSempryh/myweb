@@ -13,7 +13,7 @@
 <body>
     <header>
       <nav>
-        <div class="container">
+        <div id="home" class="container">
                 <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <a class="navbar-brand" href="#">ArchiGroup</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link smooth" href="#products">Services</a>
+                            <a class="nav-link smooth" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link smooth" href="#contacts">Projects</a>
+                            <a class="nav-link smooth" href="#projects">Projects</a>
                         </li>
                          <li class="nav-item">
                             <a class="nav-link smooth" href="#contacts">Contacts</a>
@@ -71,7 +71,7 @@
             <h1>Architecture Group</h1>
         </div>
     </header>
-    <div class="container information">
+    <div id="services" class="container information">
         <p>
             We are a design and design group that creates unique projects.Successfully completed project is our goal. 
             The activity of the group is based on a careful study of all wishes and tastes of our clients.
@@ -80,29 +80,56 @@
         </p>
     </div>
     <main>
-        <div class="container gallery">
-         <div class="item item1"><p> livingrooms</p></div>
-         <div class="item item2"><p class="text"> bedrooms</p></div>
-         <div class="item item3"><p class="text"> kitchens</p></div>
-         <div class="item item4"><p class="text"> nurseries</p></div>
-         <div class="item item5"><p class="text"> bathrooms</p></div>
-         <div class="item item6"><p class="text"> Projects</p></div>
+        <div id="projects" class="container gallery">
+         <div class="item item1"><a href="https://www.leopolis-group.com/dz43"><p> livingrooms</p></a></div>
+         <div class="item item2"><p> bedrooms</p></div>
+         <div class="item item3"><p> kitchens</p></div>
+         <div class="item item4"><p> nurseries</p></div>
+         <div class="item item5"><p> bathrooms</p></div>
+         <div class="item item6"><p> Projects</p></div>
         </div>
     </main>
     
+    <div class="container caption">
+    <h2>4 REASONS <br> to work with us:</h2>
+    </div>
+    
+ <div class="container information"> 
+
+ <table class="tab">
+  <tr class="box">
+    <th>BRAVE DECISIONS</th>
+    <th>CREATIVE TANDEM</th> 
+    <td>Original use materials and objects to create a unique project</td>
+    <td>Together with you create the concept and the main idea of the project and at each stage we agree on it</td>
+  </tr>
+  <tr class="box">
+    <th>COMPETENCE</th>
+    <th>FUNCTIONALITYE</th>
+     <td>Constant development, extensive work experience, dozens of implemented projects</td>
+    <td>Each project we have implemented is functional and ergonomic</td>
+  </tr>
+</table>
+<br> <br>
+     <div id="services" class="container information">
+        <p>
+            We are a design and design group that creates unique projects.Successfully completed project is our goal. 
+            The activity of the group is based on a careful study of all wishes and tastes of our clients.
+            We feel responsible for our projects. All of our projects are characterized by 3 main features: quality, benefit and harmony. 
+            Thanks to the high professionalism, harmonious mechanism of work and love for our business - we have made significant progress in our field.
+        </p>
+    </div>
+    
+      </div>
     <footer>
         <div class="container caption">
-            <h2>ORDER FREE CONSULT NOW</h2>
-        </div>
-            <i class="fab fa-facebook-square"><a href="https://www.facebook.com/photo.php?fbid=1888096087912014&set=g.2065508870181922&type=1&theater&ifg=1"></a></i>
-            <img src="img/" alt="instagram">
-            <img src="img/" alt="twitter">
-            <img src="img/" alt="map">
-        </div>
-        
-        <div class="container">
+            
+
+        <div id="contacts" class="container">
                 <nav class="navbar navbar-expand-md navbar-light bg-light">
-                <a class="navbar-brand" href="#">ArchiGroup</a>
+                <a class="navbar-brand" href="#">
+                    <h3 clas="title">ORDER FREE CONSULT NOW</h3><br><br><br><br></a>
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -110,22 +137,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="https://www.facebook.com/ArchiDesiign/"><i class="fab fa-facebook-square"></i> </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link smooth" href="#products">Services</a>
+                            <a class="nav-link smooth" href="https://www.instagram.com/designhome/?utm_source=ig_profile_share&igshid=1pweq7kkz4yy1"><i class="fab fa-instagram"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link smooth" href="#contacts">Projects</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link smooth" href="#contacts">Contacts</a>
+                            <a class="nav-link smooth" href="https://twitter.com/search-home"><i class="fab fa-twitter-square"></i></a>
                         </li>
                     </ul>
+                    <p class="map">
+                        <a href="https://www.google.com/maps/place/Львов"><i class="fas fa-map-marked"></i> Map</a>
+                    </p>
                 </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
     </footer>
 </body>
 </html>
