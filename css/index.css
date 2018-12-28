@@ -60,17 +60,15 @@ body {
 }
 
 .item4{
-    background-image: url(../img/princess-nurs.jpg);
+    background-image: url(../img/bath1.jpg);
 }
 .item5{
-    background-image: url(../img/livingroom2.jpg);
+    background-image: url(../img/nurs1.jpg);
 }
 
 .item6{
-    background-image: url(../img/bedroom3.jpg);
+    background-image: url(../img/kitch-liv.jpg);
 }
-
-
 
 .item a{
   text-decoration: none;
